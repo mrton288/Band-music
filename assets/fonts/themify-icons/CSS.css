@@ -1,0 +1,17 @@
+* {
+    display: ;
+    flex-wrap: ; /* đổi chiều của trục flex axis*/
+    flex-basis: ; /* xét kích thước của main size*/
+    justify-content: ; /* căn hướng của main axis*/
+    justify-self: ; /* cho text icon*/
+    align-content: ; /* xét các item*/
+    align-self: ; /*xét cho item*/
+    flex-grow: ;  /*tăng thay đổi kích thước của main size */
+    flex-shrink: ; /*thu nhỏ lại */
+    flex-flow: ;
+    flex: ; 
+    order: ; /* thứ tự flex item*/
+
+    
+    
+}
