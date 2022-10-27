@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 html {
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
@@ -18,7 +17,7 @@ html {
 4. Kiểu dáng: kiểu chữ, hình tròn, vuông,... */
 
 .clear {
-    clear: both;        /* Bao tất cả các thẻ div trong thẻ div lớn*/
+    clear: both; /* Bao tất cả các thẻ div trong thẻ div lớn*/
 }
 
 .text-white {
@@ -30,17 +29,16 @@ html {
 }
 
 .mt-8 {
-    margin-top: 8px!important;
+    margin-top: 8px !important;
 }
 
 .mt-16 {
-    margin-top: 16px!important;
+    margin-top: 16px !important;
 }
 
 .mt-32 {
-    margin-top: 32px!important;
+    margin-top: 32px !important;
 }
-
 
 .row {
     margin-left: -8px;
@@ -75,12 +73,10 @@ html {
     width: 100%;
 }
 
-
-#main{
-    
+#main {
 }
 
-#header{
+#header {
     height: 46px;
     background-color: #000;
     position: fixed;
@@ -95,21 +91,17 @@ html {
     display: inline-block;
 }
 
-#nav, .subnav {
-    list-style-type: none;    /*Kí tự bắt đầu trong danh sach "li"*/
-
+#nav,
+.subnav {
+    list-style-type: none; /*Kí tự bắt đầu trong danh sach "li"*/
 }
-
 
 #nav > li {
     display: inline-block;
 }
 
-
 #nav li {
-    
     position: relative;
-    
 }
 
 #nav > li > a {
@@ -118,20 +110,17 @@ html {
 }
 
 #nav li a {
-    
-    text-decoration: none;  /*bỏ gạch chân*/
-    line-height: 46px;      /* Chỉnh chiều cao của một dòng*/
-    padding: 0px 24px; 
+    text-decoration: none; /*bỏ gạch chân*/
+    line-height: 46px; /* Chỉnh chiều cao của một dòng*/
+    padding: 0px 24px;
     font-size: 16px;
-    display: block;         /* Chi định cách hiện thị của đối tượng */
+    display: block; /* Chi định cách hiện thị của đối tượng */
     /* position: absolute; */
-    
 }
 
 #nav li:hover .subnav {
     display: block;
 }
-
 
 #nav > li:hover > a,
 #nav .subnav li:hover {
@@ -139,23 +128,20 @@ html {
     background-color: #ccc;
 }
 
-
 #nav .subnav {
     display: none;
-    min-width: 160px;      /* Chiều rộng tối thiểu */
-    position: absolute;    /* Phụ thuộc vào thẻ cha gần nhất chứa nó*/
+    min-width: 160px; /* Chiều rộng tối thiểu */
+    position: absolute; /* Phụ thuộc vào thẻ cha gần nhất chứa nó*/
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;    /* Độ mờ của viền bóng của thẻ*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Độ mờ của viền bóng của thẻ*/
     top: 100%;
     left: 0;
-
 }
 
 #nav .subnav a {
     color: #000;
     padding: 0 12px;
     line-height: 38px;
-    
 }
 
 #nav .nav-arrow-down {
@@ -169,27 +155,24 @@ html {
     display: none;
 }
 
-
 #header .mobile-menu-btn,
 #header .search-btn {
     float: right;
     padding: 0 21px;
 }
 
-#header .menu-icon, 
+#header .menu-icon,
 #header .search-icon {
-    color : #fff;
+    color: #fff;
     font-size: 15px;
     line-height: 46px;
-    
-    
 }
 
 #header .mobile-menu-btn:hover {
     background-color: #ccc;
 }
 
-#header .mobile-menu-btn:hover .menu-icon{
+#header .mobile-menu-btn:hover .menu-icon {
     color: #000;
 }
 
@@ -198,12 +181,11 @@ html {
     cursor: pointer;
 }
 
-
-#slider{
-    position: relative;     /*Phụ thuộc vào trình duyệt */
+#slider {
+    position: relative; /*Phụ thuộc vào trình duyệt */
     margin-top: 46px;
     padding-top: 50%;
-    background-image: url('/assets/img/slider1/background1.jpg');
+    background-image: url("https://mrton288.github.io/Band-music/assets/img/slider1/background1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -214,7 +196,6 @@ html {
     color: #fff;
     bottom: 48px;
 
-
     /* left: 50%;
     transform: translateX(-50%); */
 
@@ -223,23 +204,19 @@ html {
     right: 0;
     left: 0;
 
-    text-align: center;       /* Căn giữa văn bản của thẻ*/
+    text-align: center; /* Căn giữa văn bản của thẻ*/
 }
-
 
 #slider .text-heading {
     font-weight: 500;
     font-size: 24px;
+    text-shadow: 2px 2px #000;
 }
-
 
 #slider .text-description {
     margin-top: 25px;
     font-size: 15px;
-}
-
-#content {
-  
+    text-shadow: 2px 2px #000;
 }
 
 #content .content-section {
@@ -255,13 +232,11 @@ html {
 
 #content .section-heading {
     text-align: center;
-    font-size: 30px ;
+    font-size: 30px;
     font-weight: 500;
     letter-spacing: 4px; /* Khoảng cách giữa các chứ*/
     margin-top: 10px;
-
 }
-
 
 #content .section-sub-heading {
     text-align: center;
@@ -270,14 +245,13 @@ html {
     margin-bottom: 25px;
     font-style: italic;
     /* color: violet; */
-    opacity: 0.6;          /* độ mờ cho đối tượng*/
+    opacity: 0.6; /* độ mờ cho đối tượng*/
 }
 
 #content .about-text {
     font-size: 15px;
     line-height: 1.4;
-    text-align: justify;   /* Căn cho đầy thẻ*/
-
+    text-align: justify; /* Căn cho đầy thẻ*/
 }
 
 #content .member-list {
@@ -289,13 +263,10 @@ html {
     /* float: left; */
     width: calc(100% / 4);
     /* text-align: center; */
-    
 }
 
 #content .member-name {
     font-size: 15px;
-    
-    
 }
 
 #content .member-name a {
@@ -339,7 +310,7 @@ html {
 .tikets-list .sold-out {
     background-color: #f44336;
     color: #fff;
-    padding: 3px 4px;           /*Làm thẻ div dày lên */
+    padding: 3px 4px; /*Làm thẻ div dày lên */
     margin-left: 16px;
 }
 
@@ -355,11 +326,9 @@ html {
     margin-top: -3px;
 }
 
-
 .address {
     margin-top: 16px;
     padding-bottom: 48px;
-
 }
 
 /* .address-list {
@@ -372,7 +341,6 @@ html {
     width: 100%;
     height: 184px;
     display: block;
-
 }
 
 .address-img:hover {
@@ -382,7 +350,6 @@ html {
 .body-address {
     background-color: #fff;
     padding: 16px;
-
 }
 
 .address-heading-address {
@@ -412,7 +379,6 @@ html {
     margin-top: 16px;
 }
 
-
 .address-buy-sitkets:hover {
     color: #000;
     background-color: #ccc;
@@ -429,7 +395,6 @@ html {
     align-items: center;
     justify-content: center;
     display: none;
-
 }
 
 .modal.open {
@@ -472,7 +437,6 @@ header.modal-heading-tickets {
 
 .modal-body {
     padding: 16px;
-
 }
 
 .modal-label {
@@ -513,7 +477,7 @@ header.modal-heading-tickets {
 }
 
 .modal-footer a {
-    color: #2196F3;
+    color: #2196f3;
 }
 
 @keyframes modal-input {
@@ -543,7 +507,7 @@ header.modal-heading-tickets {
     display: inline-block;
 }
 
-.contact-form .form-control{
+.contact-form .form-control {
     font-size: 15px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -563,18 +527,16 @@ header.modal-heading-tickets {
 .contact-form .form-submit-btn:hover {
     color: #000;
     background-color: #ccc;
-    
 }
 
 /* Map section */
-.map-section img{
+.map-section img {
     width: 100%;
 }
 
 #footer {
     padding: 64px 16px;
     text-align: center;
-
 }
 
 #footer .socials-list {
@@ -595,7 +557,7 @@ header.modal-heading-tickets {
     color: rgba(0, 0, 0, 0.5);
 }
 
-.copyright a{
+.copyright a {
     margin-top: 15px;
     color: rgba(0, 0, 0, 0.5);
 }
